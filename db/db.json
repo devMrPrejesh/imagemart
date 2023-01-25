@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sebastian",
+      "password": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "name": "Steve",
+      "password": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 3,
+      "name": "Ann",
+      "password": "Smith",
+      "email": "ann@codingthesmartway.com"
+    }
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "collectionName": "new collection",
+      "userId": 1,
+      "imageCount": 30
+    },
+    {
+      "id": 2,
+      "collectionName": "new collection",
+      "userId": 1,
+      "imageCount": 30
+    },
+    {
+      "id": 3,
+      "collectionName": "new collection",
+      "userId": 2,
+      "imageCount": 30
+    }
+  ]
+}
