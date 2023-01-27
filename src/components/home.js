@@ -2,10 +2,10 @@ import React from 'react';
 
 
 function Home(props) {
-
-    let trs = props.collections.map((col, idx) => (<tr key={idx}>
-        <td><a href={"/collection/" + col.id}>{col.collectionName}</a></td>
-        <td>{col.imageCount}</td>
+    const collections = props.collections;
+    let trs = Object.keys(collections).map(name => (<tr key={name}>
+        <td><a href={"/collection/" + name}>{collections[name].collectionName}</a></td>
+        <td>{collections[name].count}</td>
     </tr>));
     return (
         <table>
